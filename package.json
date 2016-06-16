@@ -1,0 +1,22 @@
+{
+  "name": "npm-dl-package",
+  "author": "Jamen",
+  "version": "0.0.0",
+  "description": "Download a package from npm's registry given a name with optional versioning/tags.",
+  "main": "index.js",
+  "repository": "jamen/npm-dl-package",
+  "scripts": {
+    "test": "eslint index.js test.js && tape test.js | tap-spec"
+  },
+  "files": ["index.js"],
+  "devDependencies": {
+    "eslint": "^2.12.0",
+    "eslint-config-google": "^0.6.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.5.1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "semver": "^5.1.0"
+  }
+}
